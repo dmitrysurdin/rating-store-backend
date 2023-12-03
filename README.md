@@ -1,2 +1,2 @@
-# rating-store-backend
-API for a rating store
+# Rating store backend
+Node, NestJS
