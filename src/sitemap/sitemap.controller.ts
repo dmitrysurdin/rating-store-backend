@@ -1,6 +1,6 @@
 import { Controller, Get, Header } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { TopPageService } from 'src/top-page/top-page.service';
+import { TopPageService } from '../top-page/top-page.service';
 import { subDays, format } from 'date-fns';
 import { Builder } from 'xml2js';
 import { CATEGORY_URL } from './sitemap.constans';
